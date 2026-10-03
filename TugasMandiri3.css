@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+img {
+    border-radius: 10px;
+}
+body {
+    margin: 20px;
+    background-color: beige;
+    font-size: 18px;
+    zoom: 2;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#datapribadi, #pendidikanFormal, #intertaiment {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: olive;
+    margin: auto;
+    padding: 10px 20px;
+    margin: -20px;
+}
+
+.nav h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: #15D8B3;
+}
+
+.datapribadi, .pendidikanFormal, .intertaiment {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.datapribadi img {
+  vertical-align: middle;
+
+}
+
+.fb {
+    text-decoration: none;
+}

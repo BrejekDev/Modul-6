@@ -1,0 +1,31 @@
+body {
+    background-color: #F5F5DC;
+}
+
+table {
+    border-radius: 25px;
+    background-color: black;
+}
+
+tr {
+    color: white;
+    font-size: 20px;
+}
+
+.tombol {
+    background-color: maroon;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.judul {
+    font-size: 25px;
+}
+
+.text {
+    border-radius: 5px;
+}

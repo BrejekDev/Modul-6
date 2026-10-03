@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Mandiri</title>
+    <link rel="stylesheet" type="text/css" href="TugasMandiri2.css">
+</head>
+<body>
+    <form action="" method="post">
+        <table align="center" cellpadding="0" cellspacing="10">
+            <tr>
+                <th class="judul" colspan="3">Formulir Pendaftaran</th>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td> : </td>
+                <td><input class="text" type="text" name="Nama" size="30"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td> : </td>
+                <td><input class="text" type="password" name="Kelas" size="30"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td> : </td>
+                <td>
+                    <input type="text" name="tanggal" size="1" maxlength="2"> /
+                    <input type="text" name="bulan" size="1" maxlength="2"> /
+                    <input type="text" name="tahun" size="2" maxlength="4"> (hh/bb/tttt)
+                </td> 
+            </tr> 
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name="lk"> Laki-Laki
+                    <input type="radio" name="pr"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Jurusan</td>
+                <td> : </td>
+                <td><select name="jurusan">
+                    <option value="rpl" selected>RPL</option>
+                    <option value="tkj">TKJ</option>
+                    <option value="tg">Teknik Grafika</option>
+                    <option value="tl">Teknik Logistik</option>
+                    <option value="meka">Mekatronika</option>
+                    <option value="ph">Perhotelan</option>
+                    <option value="dkv">DKV</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Hoby</td>
+                <td> : </td>
+                <td><input type="checkbox"> Football <input type="checkbox"> Traveling <input type="checkbox"> Blogging <br>
+                    <input type="checkbox"> Music <input type="checkbox"> Adventure <input type="checkbox"> lainnya</td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td> : </td>
+                <td><textarea class="text" name="alamat" cols="30" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3"><input class="tombol" type="submit" name="submit" value="Kirim"> <input class="tombol" type="reset" name="reset" value="Clear"></td>
+
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
